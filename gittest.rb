@@ -14,7 +14,6 @@ class Rule
     end
   end
   
-
   def players
     puts "対戦相手の人数を設定します。何人にしますか？（半角入力）"
     input = gets.to_s.chomp
