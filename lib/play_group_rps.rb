@@ -1,7 +1,10 @@
-require './group_rps_rules.rb'
-require './group_rps_players_hands.rb'
-require './group_rps_games.rb'
-require './group_rps_judgements.rb'
+$: << File.dirname(__FILE__)
+# $: は$LOAD_PATHを意味する
+
+require 'group_rps/group_rps_rules'
+require 'group_rps/group_rps_players_hands'
+require 'group_rps/group_rps_games'
+require 'group_rps/group_rps_judgements'
 
 number_of_games = Rule.new.decide_rules
 Rule.new.decide_players
