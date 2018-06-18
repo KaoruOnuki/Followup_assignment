@@ -5,7 +5,7 @@ class PlayerHand
       your_choice
     else
       until your_choice == "0\n" || your_choice == "1\n" || your_choice == "2\n" do
-        puts "ERROR: 0-2の数字を半角入力してください。"
+        puts "エラー: 0-2の数字を半角入力してください。"
         your_choice = gets.to_s
       end
       your_choice

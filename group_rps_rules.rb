@@ -7,7 +7,7 @@ class Rule
       input.to_i
     else
       until input =~ /^[1-9][0-9]*$/ do
-        puts "ERROR: 1以上の整数を半角入力してください。"
+        puts "エラー： 1以上の整数を半角入力してください。"
         input = gets.to_s.chomp
       end
       input.to_i
@@ -22,7 +22,7 @@ class Rule
       $number_of_computers = input.to_i
     else
       until input =~ /^[1-9][0-9]*$/ do
-        puts "ERROR: 整数を半角入力してください。"
+        puts "エラー： 整数を半角入力してください。"
         input = gets.to_s.chomp
       end
       $number_of_computers = input.to_i
