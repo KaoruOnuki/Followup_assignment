@@ -1,10 +1,10 @@
 $: << File.dirname(__FILE__)
 # $: は$LOAD_PATHを意味する
 
-require 'play_group_rps/group_rps_rules'
-require 'play_group_rps/group_rps_players_hands'
-require 'play_group_rps/group_rps_games'
-require 'play_group_rps/group_rps_judgements'
+require 'play_group_rps/rules'
+require 'play_group_rps/players_hands'
+require 'play_group_rps/games'
+require 'play_group_rps/judgements'
 
 number_of_games = Rule.new.decide_rules
 Rule.new.decide_players
