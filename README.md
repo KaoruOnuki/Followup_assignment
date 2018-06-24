@@ -13,6 +13,7 @@ Group Rock-Paper-Scissors requires the following to run:
 Group Rock-Paper-Scissors is composed of four files of definitions of the methods and a single file to execute the game.
 
 After downloading the ZIP, execute:
+group_rps/lib/
 ```
 $ ruby play_group_rps.rb
 ```
