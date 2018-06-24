@@ -59,7 +59,7 @@ class Judgement < Game
       end
     end
 
-    def self.announce_sum_result
+    def announce_sum_result
       extract_all_game_results
 
       puts "\nじゃんけん大会の結果です。"
