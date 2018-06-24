@@ -1,3 +1,7 @@
 gittest.rb
 .DS_Store
 Ruby.rb
+rules.rb
+players_hands.rb
+games.rb
+judgements.rb

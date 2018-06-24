@@ -1,0 +1,2 @@
+Game.generate_hands_list
+Judgement.announce_sum_result
